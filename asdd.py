@@ -11,11 +11,11 @@ time.sleep(1)
 t1 = int(input("1"))
 time.sleep(1)
 
-q = random.radint(1,49)
-w = random.radint(1,49)
-e = random.radint(1,49)
-r = random.radint(1,49)
-t = random.radint(1,49)
+q = random.randrange(1,49)
+w = random.randrange(1,49)
+e = random.randrange(1,49)
+r = random.randrange(1,49)
+t = random.randrange(1,49)
 if q == q1 and w == w1 and e == e1 and r == r1 and t == t1:
         print("100000000 LİRA KAZANDIN")
 		
