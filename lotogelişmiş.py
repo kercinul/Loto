@@ -3,14 +3,14 @@ import os
 import time
 import random
 def find (a):
-	if q1 != q and w1 != w and e1 != e and r1 != r and t1 != t and y1 != y:
-		time.sleep(3)
+        if q1 != q and w1 != w and e1 != e and r1 != r and t1 != t and y1 != y:
+                time.sleep(3)
 		print("""
-				HİÇBİR ŞEY KAZANAMADIN 
-				TEKRAR İÇİN 0 
-				ÇIKIŞ İÇİN 1  """)
-		else:
-			print("")
+			 HİÇBİR ŞEY KAZANAMADIN 
+			 TEKRAR İÇİN 0 
+			 ÇIKIŞ İÇİN 1  """)
+		
+		
 	
 	if q1 != q and w1 != w and e1 != e and r1 != r and t1 != t and y1 == y:
 		
@@ -19,8 +19,8 @@ def find (a):
 		         SON SAYI """y"""'DEN DOLAYI 25 LİRA KAZANDIN
 				 TEKRAR İÇİN 0
 				 ÇIKIŞ İÇİN 1 """)
-		else:
-			print("")
+		
+			
 		
 		
 		
@@ -32,8 +32,8 @@ def find (a):
 		         SON 2 SAYI """t , y """'DEN DOLAYI 50 LİRA KAZANDIN
 				 TEKRAR İÇİN 0
 				 ÇIKIŞ İÇİN 1 """)
-		else:
-			print("")
+		
+			
 		
 		
 		
@@ -43,8 +43,7 @@ def find (a):
 		         SON 3 SAYI """r , t , y """'DEN DOLAYI 100 LİRA KAZANDIN
 				 TEKRAR İÇİN 0
 				 ÇIKIŞ İÇİN 1 """)
-		else:
-			print("")
+		
 		
 		
 	if q1 != q and w1 != w and e1 == e and r1 == r and t1 == t and y1 == y:
@@ -53,8 +52,7 @@ def find (a):
 		         SON 4 SAYI """ e , r , t , y """'DEN DOLAYI 5.000 LİRA KAZANDIN
 				 TEKRAR İÇİN 0
 				 ÇIKIŞ İÇİN 1 """)
-		else:
-			print("")
+		
 			
 			
 	if q1 != q and w1 == w and e1 == e and r1 == r and t1 == t and y1 == y:
@@ -63,8 +61,7 @@ def find (a):
 		         SON 5 SAYI """w , e , r , t , y """'DEN DOLAYI 10.000 LİRA KAZANDIN
 				 TEKRAR İÇİN 0
 				 ÇIKIŞ İÇİN 1 """)
-		else:
-			print("")
+		
 	if q1 == q and w1 == w and e1 == e and r1 == r and t1 == t and y1 == y:
 		time.sleep(10)
 		print(""" 
@@ -73,8 +70,8 @@ def find (a):
 				 18 ADET BÖBREK ÖDÜLÜN
 				 TEKRAR İÇİN 0
 				 ÇIKIŞ İÇİN 1 """)
-		else:
-			print("")
+		
+			
 	print("kazan numaralar"q,w,e,r,t,y)
 	global c 
 	c = int(input(""))
@@ -93,9 +90,9 @@ numbers.append(e)
 numbers.append(r)
 numbers.append(t)
 numbers.append(y)
-file = 1
+dolar = 1
 
-while file == 1:
+while dolar == 1:
 	q1 = int(input(""))
 	w1 = int(input(""))
 	e1 = int(input(""))
